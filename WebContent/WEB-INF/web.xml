@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapp>
+	<element>
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>ProjectWeb</web-resource-name>
+			<url-pattern>/ProjectWeb/login</url-pattern>
+		</web-resource-collection>
+		<user-data-constraint>
+			<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+		</user-data-constraint>
+	</security-constraint>
+	</element>
+</webapp>
